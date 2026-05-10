@@ -18,6 +18,15 @@ Go/Java 对照:
 
 # ============================================================
 # 跟着视频敲一遍
+name = "Raymond"
+age = 20
+gpa = 3.5
+is_student = True
+
+age = float(age)
+print(type(age).__name__)
+name = bool(name)
+print(type(name).__name__)
 # ============================================================
 # TODO: 在这里跟着 Bro Code 视频写代码，不要复制粘贴
 
