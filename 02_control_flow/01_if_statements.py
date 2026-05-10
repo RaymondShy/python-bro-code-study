@@ -44,8 +44,17 @@ if response == "Y":
     print("Have some food!")
 else:
     print("No food for you!")
-
-
+# 题目3: TODO 温度测量计算
+unit = input("Is this temperature in Celsius or Fahrenheit? (C/F)")
+temp = float(input("Enter the temperature:"))
+if unit == "C":
+    temp = round((temp * 9)/5 + 32,1) # F = (C * 9/5)+32
+    print(f"The temperature in Fahrenheit is: {temp}")
+elif unit == "F":
+    temp = round((temp - 32)* 5/9,1) # C = (F - 32) * 5/9
+    print(f"The fahrenheit in temperature is: {temp}")
+else:
+    print(f"{unit} is an invalid unit of measurement")
 # ============================================================
 # 我的笔记 / 踩过的坑
 # ============================================================
