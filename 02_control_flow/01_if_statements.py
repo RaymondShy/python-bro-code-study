@@ -20,13 +20,30 @@ Go/Java 对照:
 # 跟着视频敲一遍
 # ============================================================
 # TODO: 在这里跟着 Bro Code 视频写代码，不要复制粘贴
-
-
+age = int(input("Enter your age:"))
+if age >= 100:
+    print("You are too old to sign up")
+elif age >= 18:
+    print("You are now to signed up")
+elif age <0:
+    print("You haven't been born yet")
+else:
+    print("You must be 18+ to sign up")
 # ============================================================
 # 自己练习 (可参考下面的题目，也可以自己出)
 # ============================================================
-# 题目1: TODO 自己设计一个题
-# 题目2: TODO 自己设计一个题
+# 题目1: TODO 判断用户是否在线
+online = True
+if online:
+    print("The user is online")
+else:
+    print("The user is offline")
+# 题目2: TODO 判断用户是否想要食物
+response = input("Would you like food? (Y/N)")
+if response == "Y":
+    print("Have some food!")
+else:
+    print("No food for you!")
 
 
 # ============================================================
