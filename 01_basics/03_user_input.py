@@ -20,15 +20,31 @@ Go/Java 对照:
 # 跟着视频敲一遍
 # ============================================================
 # TODO: 在这里跟着 Bro Code 视频写代码，不要复制粘贴
-
+name = input("What is your name?:")
+age = int(input("How old are you?:"))
+age = age + 1
+print("HAPPY BIRTHDAY")
+print(f"My name is {name},and I am {age} years old")
 
 # ============================================================
 # 自己练习 (可参考下面的题目，也可以自己出)
 # ============================================================
-# 题目1: TODO 自己设计一个题
-# 题目2: TODO 自己设计一个题
+# 题目1: TODO 计算长方形面积
+# 题目2: TODO 购买商品计算总价
+""" topic1: """
+length = float(input("Please enter the length of the rectangle:"))
+width = float(input("Please enter the width of the reactangle:"))
+area = length * width
+print(f"The area of rectangle is {area}cm²")
 
+""" topic2:  """
+item = input("What item would you like to buy?:")
+price = float(input("What is the price?:"))
+quantity = int(input("How many would you like?:"))
+total = price * quantity
 
+print(f"You have bought {quantity} x {item}/s")
+print(f"Your total is ${total}")
 # ============================================================
 # 我的笔记 / 踩过的坑
 # ============================================================
