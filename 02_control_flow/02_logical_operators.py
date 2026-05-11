@@ -20,8 +20,12 @@ Go/Java 对照:
 # 跟着视频敲一遍
 # ============================================================
 # TODO: 在这里跟着 Bro Code 视频写代码，不要复制粘贴
-
-
+temp = 20
+is_raining = True
+if temp > 35 or temp < 0 or is_raining:
+    print("The outdoor event is cancelled")
+else:
+    print("The outdoor event is scheduled")
 # ============================================================
 # 自己练习 (可参考下面的题目，也可以自己出)
 # ============================================================
